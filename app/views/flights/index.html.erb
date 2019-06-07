@@ -1,0 +1,3 @@
+<%= render "shared/jumbotron", header: "Flights", tag_line: "Check Available Flights" %>
+<%= render "list_flight", flight: @open_flights, header: "Open Flights" %>
+<%= render "list_flight", flight: @closed_flights, header: "Closed Flights" %>

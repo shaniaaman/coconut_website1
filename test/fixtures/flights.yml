@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  departure: 2019-06-06 09:00:44
+  arrival: 2019-06-06 09:00:44
+  baggage_allowance: 9.99
+  capacity: 1
+
+two:
+  departure: 2019-06-06 09:00:44
+  arrival: 2019-06-06 09:00:44
+  baggage_allowance: 9.99
+  capacity: 1
