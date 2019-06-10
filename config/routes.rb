@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
 
   root to: "pages#index"
-  
-  get "login", to: "pages#show_login"
-  get "login", to: "pages#new_login"
-  get "logout", to: "pages#logout"
+  get "/login", to: "pages#show_login"
+  post "/login", to: "pages#new_login"
+  get "/logout", to: "pages#logout"
   
   resources :users 
   resources :seat_classes
